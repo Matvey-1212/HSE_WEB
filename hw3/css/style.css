@@ -1,0 +1,245 @@
+
+
+body{
+    
+    
+    
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+
+.container {
+    border: 1px solid none;
+    max-width: 945px;  
+    margin: auto;  
+    
+}
+
+.section-title{
+    
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+.hero{
+    padding-top: 20px;
+    background: linear-gradient(0deg, #000000 1%, rgba(0, 0, 0, 0) 100%);
+    padding-bottom: 155px;
+}
+.hero-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 105px;
+}
+.social-link{
+    margin-left: 20px;
+}
+.social-link:first-child{
+    margin-left: 0;
+}
+.hero-content{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.hero-text{
+    margin-top: 50px;
+}
+
+.hero-subtitle{
+    display: block;
+    font-size: 24px;
+    line-height: 28px;
+    color: #3342b5db;
+    margin-bottom: 14px;
+}
+.hero-title{
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 59px;
+    color: #FFFFFF;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.hero-description{
+    font-size: 16px;
+    line-height: 28px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+p{
+    color:#ffffff !important;
+}
+#testId2{
+    color:#ff0000;
+}
+#testId1{
+    color:#0048ff;
+}
+.button{
+    background: #3342b5;
+    
+    border: none;
+    border-radius: 155px 155px 155px 155px;
+    padding: 24px 42px;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+    
+}
+
+
+.hselink{
+    
+    text-decoration: none;
+    color: inherit;
+    text-decoration: underline;
+
+}
+
+*[href]{
+    color:  #3342b5;
+  
+}
+
+
+
+
+
+
+
+
+
+.features{
+    background-color: #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+}
+.features-container {
+    border: 1px solid none;
+    max-width: 945px;  
+    margin: auto;  
+    
+}
+
+.features-skills{
+    background-color: #3342b5db;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    padding-top: 60px;
+    border: none;
+    border-radius: 155px 155px 155px 155px;
+    padding: 24px 42px;
+    font-size: 12px;
+    line-height: 14px;
+    
+}
+
+.features-item{
+    flex-basis: 30%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
+}
+
+.features-title{
+    margin: 0;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+.features-text{
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0;
+}
+
+.rounded {
+counter-reset: li; 
+list-style: none; 
+font: 14px "Trebuchet MS", "Lucida Sans";
+padding: 0;
+
+text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+.rounded a {
+position: relative;
+display: block;
+padding: .4em .4em .4em 2em;
+margin: .5em 0;
+background: #86aace;
+color: #ffffff;
+text-decoration: none;
+border-radius: .3em;
+transition: .3s ease-out;
+}
+.rounded a:hover {background: #545fb3;}
+.rounded a:hover:before {transform: rotate(360deg);}
+.rounded a:before {
+content: counter(li);
+counter-increment: li;
+color: #ffffff;
+position: absolute;
+left: -1.3em;
+top: 50%;
+margin-top: -1.3em;
+background: #3342b5;
+height: 2em;
+width: 2em;
+line-height: 2em;
+border: .3em solid white;
+text-align: center;
+font-weight: bold;
+border-radius: 2em;
+transition: all .3s ease-out;
+}
+
+
+
+
+.footer {
+    background-color: #000000;
+    padding-top: 1px;
+}
+
+.footer > section{
+    
+
+    position: relative;
+     left: 200px;
+    bottom: 20px;
+}
+.footer-item{
+    display:inline;
+}
+
+.policy{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    text-decoration: underline;
+    color:white !important
+    
+}
