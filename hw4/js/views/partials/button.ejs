@@ -1,0 +1,36 @@
+<div>
+    <button class="open-button" id="btnOpen" >Чат</button>
+    <div class="chat-popup" id="myForm">
+        
+        <form action="#" class="form-container">
+            
+            <div class="msgs" id="msgsid">
+                <div class="msg">
+                    <spam class="author-msg">
+                        Я могу ответить на сообщения содержащие: "привет", "как дела"
+                    </spam>
+                    
+                </div>
+            </div>
+            
+            <div class="text-container">
+                <textarea placeholder="Введите сообщение.." id="msg-text" id="chat-text-form"></textarea>
+            </div>
+            <div class="pushAndVoice">
+                <button type="submit" class="btn" id="btnPush">Отправить</button>
+                <!--<button type="submit" class="btn voice" id="btnVoice"><img src="img/free-icon-microphone-6788560.png" alt="micro" class="micro" ></button>
+                <button type="submit" class="btn voice" id="btnStopVoice"><img src="img/free-icon-microphone-6788560.png" alt="micro" class="micro" ></button>-->
+                <button class="record">
+                    <img src="img/free-icon-microphone-6788560.png" alt="micro" class="micro" >
+                </button>
+                <button class="stop">
+                    <img src="img/free-icon-microphone-6788560.png" alt="micro" class="micro" >
+                </button>
+            </div>
+            <button type="button" id="btnClose" class="btn cancel">Закрыть</button>
+
+            <script src="js/chat.js"></script>
+            <script src="js/voiceChat.js"></script>
+        </form>
+    </div>
+</div>

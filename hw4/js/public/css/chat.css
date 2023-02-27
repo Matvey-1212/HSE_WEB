@@ -1,0 +1,198 @@
+
+
+/* Кнопка, используемая для открытия формы чата - исправлена в нижней части страницы */
+.open-button {
+  background-color: #3342b5;
+  color: white;
+  
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 100px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+}
+
+.chat-popup{
+    z-index: 7;
+    position: fixed;
+    display : none;
+    
+    
+    
+    bottom: 23px;
+    right: 28px;
+    
+}
+
+/* Всплывающий чат - скрыт по умолчанию 
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }*/
+
+.msgs{
+    
+  padding: 5px;
+  margin-bottom: 20px;
+  
+  border: none;
+  background: #f1f1f1;
+  border-color: #3342b5; 
+    border-style: solid; 
+    resize: none;
+  height: 300px;
+  border-radius: 10px;
+  overflow-y: scroll;
+  display: block; 
+}
+
+.msg{
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.guest-msg{
+    color: black;
+    display: block;
+    background: #0812c867;
+    border-radius: 5px;
+    padding: 5px;
+    max-width: 180px;
+    
+    margin-left: auto;
+    margin-right: 5px;
+    text-align:right;
+    
+}
+
+.author-msg{
+    color: black;
+    display: block;
+    background: #757ad667;
+    border-radius: 5px;
+    padding: 5px;
+    max-width: 180px;
+    margin-left: 5px;
+    margin-right: auto;
+    text-align:left;
+    
+    
+}
+
+/* Добавить стили для контейнера формы */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  min-height: 200px;
+  background-color: white;
+  border-color: #3342b5; 
+    border-style: solid; 
+  border-radius: 25px;
+}
+.text-container{
+    display: flex; 
+    justify-content: space-evenly;
+}
+/* Полная ширина текстовой области */
+.form-container textarea {
+  width: 250px;
+  padding: 15px;
+  margin-bottom: 20px;
+  
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  height: 10px;
+  border-radius: 10px;
+}
+
+/* Когда текстовое поле получает фокус, сделайте что-нибудь */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Установите стиль для кнопки отправить/войти */
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+  border-radius: 25px;
+  font-size:15px;
+}
+
+/* Добавить красный цвет фона для кнопки "Отмена" */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Добавить некоторые эффекты наведения на кнопки */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.pushAndVoice{
+    display: flex; 
+    flex-direction: row;
+  justify-content: space-around;
+    
+}
+
+#btnPush{
+    width: 200px;
+}
+
+.record{
+  width: 50px;
+  padding: 0px;
+  border-radius: 25px;
+  margin-bottom:10px;
+  border-color: #3342b592; 
+  background-color: #4caf4fb0;
+  
+}
+.stop{
+  width: 50px;
+  padding: 0px;
+  border-radius: 25px;
+  margin-bottom:10px;
+  border-color: #3342b592; 
+  background-color: red;
+  display: none;
+  
+}
+.micro{
+  width:20px;
+}
+
+.clipContainer{
+  margin-top: 10px;
+}
+
+.AudioMSG{
+  display: block;
+  margin-left: auto;
+    margin-right: 5px;
+  border-color: #3342b5; 
+    border-style: solid; 
+    border-radius: 25px;
+    filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+    width: 200px;
+    height: 40px;
+}
