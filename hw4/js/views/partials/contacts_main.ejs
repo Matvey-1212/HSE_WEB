@@ -44,11 +44,11 @@
                     
                 </div>
 
-                <form action="#" class="contacts-form">
+                <form action="/send" class="contacts-form" method="post">
                     <h4 class="form-title">Можете просто оставить заявку, я позвоню вам сегодня</h4>
-                    <input type="text" class="input input-name" placeholder="Ваше имя">
-                    <input type="text" class="input input-phone" placeholder="Ваш телефон">
-                    <button class="form-button">Бесплатная консультация</button>
+                    <input type="text" name="name" class="input input-name" placeholder="Ваше имя">
+                    <input type="text" name="number" class="input input-phone" placeholder="Ваш телефон">
+                    <input type="submit" value="Отправить" class="form-button">
                 </form>
 
             </div>
