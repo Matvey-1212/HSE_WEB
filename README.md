@@ -1,4 +1,4 @@
-## HSE Web Programming Homework
+## HSE Web Programming Homework (Jan.2023 - Mar.2023)
 This repository contains the homework completed for the Web Programming course at the university. The homework consists of four assignments that cover a range of web development topics. Each assignment is described below:
 
 ### HW 1: Create HTML Structure
